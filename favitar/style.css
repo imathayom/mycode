@@ -1,0 +1,45 @@
+/* Basic Styling */
+body { 
+    font-family: "Noto Sans Thai", sans-serif;
+    background-image: url("codioful-formerly-gradienta-G084bO4wGDA-unsplash.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;           /* Prevent the image from repeating */
+    background-attachment: fixed;           /* Make the image stick in place */
+    background-size: cover;                 /* Cover the entire screen */
+    background-position: center;            /* Center the image */
+    margin: 0;  
+}
+
+ 
+.box {
+    border-radius: 10px;
+    background: #111111; 
+    padding:20px;
+     
+}
+
+
+.ibox{
+    text-align: center;
+    margin:0 auto;
+    color:#fff;
+     
+    background: #CCC;
+     
+}
+.ibox .text{ 
+    font-size:12px;
+    font-weight: 700;
+}
+
+.iconpack{ 
+    width:56px;
+    height:56px;
+    
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 7px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.iconpack img{width:35px; height:35px; }
